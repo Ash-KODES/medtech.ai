@@ -62,12 +62,13 @@ export default function Home() {
                       alt="feature3"
                     />
                     <CardContent>
-                      <Typography variant="h5">History Monitoring</Typography>
+                      <Typography variant="h5">Symptom Checker</Typography>
                       <hr />
                       <Typography variant="body2">
-                        Efficiently track and manage patients' medical history,
-                        including diagnoses, treatments, and medications, for
-                        comprehensive healthcare management.
+                        Upload your X-ray images or other visual specimens to
+                        our AI-powered Symptom Checker. Quickly receive
+                        predictions and insights about potential diseases based
+                        on your uploads.
                       </Typography>
                     </CardContent>
                   </Card>

@@ -53,7 +53,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link hoverlink" to="/symptomcheck">
+                  <Link className="nav-link hoverlink" to="/symptomdetect">
                     <i className="fa fa-fw fa-question-circle"></i>Test Symptoms
                   </Link>
                 </li>
@@ -84,6 +84,11 @@ export default function Navbar() {
             <li className="nav-item">
               <Link className="nav-link hoverlink" to="/faq">
                 <i className="fa fa-fw fa-question-circle"></i>FAQ's
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link hoverlink" to="/symptomdetect">
+                <i className="fa fa-fw fa-question-circle"></i>Symptoms Detector
               </Link>
             </li>
             <li className="nav-item">

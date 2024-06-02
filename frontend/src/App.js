@@ -9,8 +9,8 @@ import Login from "./components/Login";
 import Appoint from "./components/Appoint";
 import News from "./components/News/News";
 import AllAppointments from "./components/AllAppointments";
-import SymptomChecker from "./components/SymptomChecker";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SYMTOMDETECT from "./components/SymtomDetector";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
             <Route path="/bookappoint" element={<BookAppoint />}></Route>
             <Route path="/latestnews" element={<News />}></Route>
             <Route path="/faq" element={<Faq />}></Route>
-            <Route path="/symptomcheck" element={<SymptomChecker />}></Route>
+            <Route path="/symptomdetect" element={<SYMTOMDETECT />}></Route>
             <Route
               path="/viewappointment"
               element={<AllAppointments />}
